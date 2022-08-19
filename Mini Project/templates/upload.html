@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="{{ url_for('static',filename='styles/styles.css') }}" type="text/css" rel="stylesheet">
+  <title>Upload</title>
+</head>
+<body>
+  <h1 style="margin-left: 100px;">Customer Segementation using RFM Rankings</h1>
+ 
+  <form
+    action="http://localhost:5000/uploader"
+    method="POST"
+    enctype="multipart/form-data"
+  >
+  
+  <img src="/static/images/logo.png" align=right style="width: 550px;height: 150px; margin-top:-300px;margin-left: 500px;"/>
+  <section class="mainContent">
+    <input type="file" name="file" />
+    <input id="inpButton" type="submit" />
+  </section>
+  <div class="details">
+    <h2>Team Members:</h2>
+      <h3>Mourya Manohar Reddy Induri- 123018037</h3>
+      <h3>Harshini A- 123018036</h3>
+      <h3>Nithin C- 123003048</h3>
+  </div>
+ 
+  </form>
+</body>
