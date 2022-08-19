@@ -1,0 +1,105 @@
+html,body {
+    height: 100%
+}
+
+html{
+    display: table;
+    margin: auto;
+}
+
+body{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body {
+    background-color: bisque;
+    
+}
+
+input[type="file"]{
+    border:  5px solid green;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#inpButton,input[type='submit'] {
+    border: 5px solid green;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-left: 75px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+input[type='submit']{
+    border: 5px solid green;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#ipSubmit,input[type='submit'] {
+    border: 2px solid green;
+    display: inline-block;
+    padding: 6px 6px;
+    cursor: pointer;
+    margin-left: 75px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#algoSubmit,input[type='submit'] {
+    border: 2px solid green;
+    display: block;
+    padding: 6px 6px;
+    cursor: pointer;
+    margin-left: 75px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+select{
+    overflow: hidden !important;
+}
+
+
+a{
+    text-decoration: none;
+    padding: 15px;
+    margin: 20px;
+    font-size: 24px;
+}
+
+
+
+button{
+    margin: 50px;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+#algoSubmit, button{
+    font-size: 15px;
+  }
+section{
+    margin-left: 100px;
+}
+
+
+label{
+    font-size: 25px;
+}
+
+.details{
+    margin-top: 50px;
+    margin-left: 100px;
+}
